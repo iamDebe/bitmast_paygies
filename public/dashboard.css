@@ -1,0 +1,255 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box !important;
+}
+body a {
+  text-decoration: none;
+}
+
+nav {
+  margin-bottom: 10rem !important;
+}
+.custom__nav{
+  margin: auto .5rem !important;
+  height: fit-content !important;
+}
+.custom__tab--item {
+  color: rgb(38, 38, 113) !important;
+  border: none !important;
+}
+.custom__tab--item:hover {
+ border-bottom: 3px solid rgb(38, 38, 113) !important
+}
+
+.custom__tab--ul {
+  height: fit-content !important;
+  padding: 10px 0 !important;
+  border-top: 2px solid rgb(38, 38, 113) !important;
+  border-bottom: 2px solid rgb(38, 38, 113) !important;
+}
+.form-control:focus {
+  border: 1px solid white !important;
+  outline: none !important;
+}
+
+.custom__btn {
+  background-color: #fd7e14;
+  border: none !important;
+  color: white;
+}
+.custom__btn + .custom__btn {
+  margin-left: 1rem;
+}
+.custom__btn:hover {
+  background-color: #b9621b;
+}
+.balance__title {
+  color: rgb(38, 38, 113);
+}
+.balance__table {
+  border: 1px solid grey !important;
+  border-radius: 3px;
+  padding: 1rem;
+}
+.wrapper {
+  background-color: #f7f7f7;
+  border: 1px solid grey !important;
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+.recent__trxn {
+  border: 1px solid grey !important;
+  border-radius: 3px;
+  padding: 1rem;
+}
+.select {
+  width: 100% !important;
+}
+.custom__trxn--input {
+  width: 100% !important;
+  /* margin-top: 1rem !important; */
+}
+
+.custom__btn--alternative {
+  background: rgb(38, 38, 113);
+  color: white;
+  border: none !important;
+}
+
+.custom__table {
+  background: rgb(38, 38, 113);
+}
+.tfoot__caption {
+  color: rgb(38, 38, 113);
+}
+.recent__trxn--title {
+  color: rgb(38, 38, 113);
+}
+.notification__header {
+  color: rgb(38, 38, 113);
+}
+.notification__section {
+  border: 1px solid grey !important;
+  border-radius: 3px;
+  padding: 1rem;
+}
+.notification__wrapper {
+  background-color: #f7f7f7;
+  border: 1px solid grey !important;
+  border-radius: 3px;
+  padding: 1rem;
+}
+.notiication__btn {
+  width: 100% !important;
+}
+.date {
+  font-size: 0.85rem !important;
+}
+.notitication__text {
+  font-size: 1rem !important;
+  margin-left: 2rem !important;
+  color: rgb(38, 38, 113);
+}
+.notification__title {
+  font-size: 1.2rem;
+  color: rgb(38, 38, 113);
+}
+.bell {
+  color: #fd7e14 !important;
+}
+.custom-tooltip{
+  background-color: grey ;
+}
+.wallet__trxn--section {
+  border: 1px solid grey !important;
+}
+.wallet__balance {
+  color: rgb(38, 38, 113);
+}
+.custom__btn--ghost {
+  background-color: transparent;
+  border: 2px solid rgb(38, 38, 113);
+  color: rgb(38, 38, 113) !important;
+}
+.custom__btn--ghost + .custom__btn--ghost {
+  margin-left: 1rem;
+}
+hr.custom__divider {
+  border: 1px solid grey !important;
+}
+
+.general__section {
+  border: 1px solid grey !important;
+  border-radius: 3px;
+  padding: 1rem;
+}
+.general_search--input {
+  cursor: pointer !important;
+  background-color: rgb(38, 38, 113) !important;
+  color: white !important;
+}
+.tab__component {
+  border: 1px solid grey !important;
+  border-radius: 3px !important;
+}
+.tab__btn {
+  background-color: #f7f7f7;
+  padding: 1rem;
+  border-bottom: 1px solid grey !important;
+}
+
+.logo__comp--img {
+  width: 40% !important;
+}
+.search__wrapper {
+  border: 1px solid grey !important;
+}
+.custom__card {
+  width: 100% !important;
+  border-radius: 10px !important;
+  padding: 0.5rem 1rem !important;
+}
+.custom__card--img {
+  width: 40% !important;
+}
+.card__img--code {
+  width: 50% !important;
+}
+
+.custom__card--text {
+  font-size: 0.9rem !important;
+  text-align: center !important;
+  letter-spacing: -1px !important;
+  margin-top: -10px !important;
+}
+.custom__card--title {
+  line-height: 15px !important;
+  letter-spacing: -1px !important;
+}
+.card__address {
+  background-color: rgb(223, 148, 148, 0.5);
+  width: 100% !important;
+  padding: 0 2px !important;
+}
+.card__address--text {
+  font-size: small;
+}
+
+.tag__section {
+  border-top: 1px solid grey !important;
+  background-color: #f7f7f7 !important;
+  width: 100% !important;
+  min-height: 100% !important;
+}
+
+.search__tag {
+  background-color: rgb(18, 18, 18);
+  border-radius: 25px !important;
+  padding: 3px 8px !important;
+  color: white !important;
+  font-size: x-small !important;
+}
+.general__header {
+  color: rgb(38, 38, 113);
+}
+.general__title {
+  color: rgb(38, 38, 113) !important;
+}
+.general__info {
+  color: rgb(38, 38, 113) !important;
+  font-size: 0.95rem !important;
+}
+.search__header,.createaddress__header,.search__info,.logo__header,.address__header,.address__info {
+  color: rgb(38, 38, 113) !important;
+}
+.create___info {
+  color: rgb(38, 38, 113) !important;
+  font-size: 0.95rem !important;
+}
+.noactivity {
+  border: 1px solid grey !important;
+  margin-bottom: 2rem !important;
+}
+.create__wallet {
+  border: 1px solid grey !important;
+}
+.beneficiary {
+  border: 1px solid grey !important;
+}
+.request__payment {
+  border: 1px solid grey !important;
+}
+.create__img,
+.ben__img,
+.request__img {
+  margin: 1rem auto !important;
+  width: 50% !important;
+  height: 150px !important;
+}
+.activity__card {
+  background-color: #f7f7f7 !important;
+}
+
+
