@@ -5,9 +5,28 @@ const GeneralSearch = () => {
     <div>
          <section className=" mb-5 mt-3 ">
             <label htmlFor="" className="text-capitalize my-3 fw-bold fs-6 logo__header">Logo component</label>
+            <div className='row'>
+              <div className='col-md-5'>
+                <a class="" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <img src="assets/images/Bitmast pages2 1.svg" alt="" className="logo__comp--img" />
+                </a>
+              </div>
+            </div>
             <div className="row d-flex">
-              <div className="col-md-5">
-                <img src="assets/images/Bitmast pages2 1.svg" alt="" className="logo__comp--img" />
+              <div className="col-md-12">
+              <p>
+                
+              </p>
+              <div class="collapse" id="collapseExample">
+                  <div class="">
+                    <div className="input-group mb-1">
+                      <input type="file" className="form-control " placeholder=" " aria-label="Username" aria-describedby="basic-addon1"/>
+                      <span className="input-group-text" id="basic-addon1">Browse</span>
+
+                    </div>
+                </div>
+              </div>
+                
               </div>
             </div>
             <label className="my-2 text-capitalize fs-6 fw-bold search__header">search results</label>

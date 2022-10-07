@@ -8,14 +8,14 @@ const RecentTrxn = () => {
                       <div className="wrapper  ">
                         <div className="row my-5">
                           <div className="col-md-6  border-dark">
-                            <select name="" id="" className="select p-1 rounded-2 bg-white">
+                            <select name="" id="" className="select p-1 rounded-2 bg-white ">
                               <option defaultValue="0" selected disabled>choose wallet</option>
                               <option defaultValue="1">bitcoin</option>
                               <option defaultValue="2">dogecoin</option>
                             </select>
                           </div>
                           <div className="col-md-6 mt-md-0 mt-3 border-dark border-2">
-                            <select name="" id=""  className="select p-1 rounded-2 bg-white" >
+                            <select name="" id=""  className="select p-1 rounded-2 bg-white " >
                               <option defaultValue="0" selected disabled>choose wallet</option>
                               <option defaultValue="1">bitcoin</option>
                               <option defaultValue="2">dogecoin</option>

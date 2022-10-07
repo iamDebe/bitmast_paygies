@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useRef } from 'react'
 import AddressaBalanceTable from './AddressBalanceTable'
 import CreateAddressTab from './CreateAddressTab'
 import GeneralSearch from './GeneralSearch'
@@ -7,6 +7,26 @@ import Search from './Search'
 import Slider from './Slider'
 
 const General = () => {
+    const [lockIcon, setLockIcon] = useState("fa-unlock")
+    const [isBackgroundRed, setIsBackgroundRed] = useState(true)
+
+
+//    const myStyle = {
+//         backgroundColor: "red",
+//       };
+
+
+
+    const bgColor = useRef()
+    
+   
+
+    const switchIcon = (e)=>{
+        e.target.value.length === 34 ? setLockIcon("fa-rotate-left") : setLockIcon("fa-unlock")
+        e.target.value.length === 34 ? setIsBackgroundRed(false) : setIsBackgroundRed(true)
+          
+       
+    }
   return (
     <div>
          <section className="general__section my-5 p-md-5 p-2">
@@ -18,9 +38,11 @@ const General = () => {
             <label htmlFor="" className="text-capitalize general__title my-3 fw-bold">crpto address input</label>
             <form action="" className="mt-">
                 <div className="input-group mb-1">
-                <input type="text" className="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1" />
-                <span className="input-group-text" id="basic-addon1" title="paste crypto address"><i className="fa fa-paste"></i></span>
-                <span className="input-group-text" id="basic-addon1" title=""><i className="fa fa-lock"></i></span>
+                <input type="text" className="form-control address__paste--input" placeholder="Paste your 34 character crypto address " aria-label="Username" aria-describedby="basic-addon1"  name="addressInput" onChange={switchIcon}/>
+                <span className="input-group-text address__paste" id="basic-addon1" title="paste crypto address"><i className="fa fa-paste address__paste--icon"></i></span>
+                <span className="input-group-text address__paste-1" id="basic-addon1" title="" ref={bgColor} style={{
+                    backgroundColor: isBackgroundRed ? '#0f0fd1' : 'orange',
+                }}><i className={`fa ${lockIcon} address__paste--icon`}></i></span>
                 </div>
                 <label htmlFor="" className=" mb-md-5 general__info">Please paste crypto address</label>
 

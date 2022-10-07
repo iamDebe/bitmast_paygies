@@ -32,26 +32,26 @@ const Balance = () => {
                        
                         <div className="col-md-6 col ">
                             <h4 className="mt-md-0 mt-4">Account Balance Chart</h4>
-                            <span>Balance for user wallets</span>
-                            <table className="table table-sm table-md-borderless table-responsive ">
+                            <span className=''>Balance for user wallets</span>
+                            <table className="table table-sm table-md-borderless table-responsive mt-3">
                                
                                   <tbody className="">
-                                    <tr className="d-flex justify-content-between">
+                                    <tr className="d-flex justify-content-between mt-1">
                                       <td><img src="/assets/images/btc.png" alt="" width="40" height="40" /> Bitcoin (BTC) <i className="fw-bold">0.00542</i></td>
                                       <td className="align-self-md-center  align-self-end"><span className="fw-bold search__header">184,000.000 NGN</span></td>
                                     </tr >
                                     
-                                    <tr className="d-flex justify-content-between">
+                                    <tr className="d-flex justify-content-between mt-1">
                                       <td><img src="/assets/images/lite.png" alt=""width="40" height="40" />
                                         Litecoin (LTC) <i className="fw-bold">0.00542</i></td>
                                       <td className="align-self-md-center  align-self-end"><span className="fw-bold search__header">184,000.000 NGN</span></td>
                                     </tr>
-                                    <tr className="d-flex justify-content-between">
+                                    <tr className="d-flex justify-content-between mt-1">
                                       <td><img src="assets/images/dash.png" alt="" width="40" height="40" />
                                         Dashcoin (DTC) <i className="fw-bold">0.00542</i></td>
                                       <td className="align-self-md-center  align-self-end"><span className="fw-bold search__header">184,000.000 NGN</span></td>
                                     </tr>
-                                    <tr className="d-flex justify-content-between">
+                                    <tr className="d-flex justify-content-between nt-1">
                                       <td><img src="assets/images/doge.png" alt="" width="40" height="40" />
                                         Dogecoin (DTC) <i className="fw-bold">0.00542</i></td>
                                       <td className="align-self-md-center  align-self-end"><span className="fw-bold search__header">184,000.000 NGN</span></td>

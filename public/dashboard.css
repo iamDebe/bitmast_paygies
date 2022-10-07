@@ -7,6 +7,10 @@ body a {
   text-decoration: none;
 }
 
+input,select{
+  border: 1px solid grey !important;
+}
+
 nav {
   margin-bottom: 10rem !important;
 }
@@ -66,9 +70,11 @@ nav {
 }
 .select {
   width: 100% !important;
+  border: 1px solid grey;
 }
 .custom__trxn--input {
   width: 100% !important;
+  border: 1px solid grey !important;
   /* margin-top: 1rem !important; */
 }
 
@@ -133,6 +139,11 @@ nav {
   border: 2px solid rgb(38, 38, 113);
   color: rgb(38, 38, 113) !important;
 }
+.custom__btn--ghost:hover {
+  background-color: rgb(38, 38, 113) !important;
+  border: none !important;
+  color: white !important;
+}
 .custom__btn--ghost + .custom__btn--ghost {
   margin-left: 1rem;
 }
@@ -149,6 +160,18 @@ hr.custom__divider {
   cursor: pointer !important;
   background-color: rgb(38, 38, 113) !important;
   color: white !important;
+}
+.address__paste--input:focus{
+  outline: 2px solid white !important;
+}
+.address__paste{
+  background-color: rgb(79, 79, 184) !important;
+}
+/* .address__paste-1{
+  background-color: rgb(38, 38, 113) !important;
+} */
+.address__paste--icon{
+  color:white;
 }
 .tab__component {
   border: 1px solid grey !important;
