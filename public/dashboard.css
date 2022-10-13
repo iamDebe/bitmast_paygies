@@ -11,6 +11,7 @@ input,select{
   border: 1px solid grey !important;
 }
 
+
 nav {
   margin-bottom: 10rem !important;
 }
@@ -186,6 +187,9 @@ hr.custom__divider {
 .logo__comp--img {
   width: 40% !important;
 }
+::-webkit-file-upload-button{
+  display: none !important;
+}
 .search__wrapper {
   border: 1px solid grey !important;
 }
@@ -193,6 +197,7 @@ hr.custom__divider {
   width: 100% !important;
   border-radius: 10px !important;
   padding: 0.5rem 1rem !important;
+  /* background-color: #fd7e14 !important; */
 }
 .custom__card--img {
   width: 40% !important;
@@ -276,3 +281,6 @@ hr.custom__divider {
 }
 
 
+.payment__request--label{
+  color: rgb(38, 38, 113);
+}

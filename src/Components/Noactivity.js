@@ -12,19 +12,19 @@ const Noactivity = () => {
                 <div className="col-md-4 ">
                     <div className="create__wallet d-flex flex-column activity__card mt-md-0 mt-1">
                     <img src="assets/images/create.svg" alt="" className="create__img py-4 px-2 " />
-                    <button type="button" className=" rounded-2  py-md-2 py-1 text-capitalize mx-auto mb-3 mt-2 custom__btn" data-bs-toggle="modal" data-bs-target="#exampleModal-1" data-bs-whatever="@mdo">Create  a wallet</button>
+                    <button type="button" className=" rounded-2  py-md-2 py-1 text-capitalize mx-auto mb-3 mt-2 custom__btn px-3" data-bs-toggle="modal" data-bs-target="#exampleModal-1" data-bs-whatever="@mdo">Create  a wallet</button>
                     </div>
                 </div>
                 <div className="col-md-4 ">
                     <div className="beneficiary  d-flex flex-column activity__card mt-md-0 mt-2">
                     <img src="assets/images/beneficiary.svg" alt="" className=" ben__img py-4 px-2 " />
-                    <button type="button" className=" rounded-2 py-md-2 py-1 text-capitalize mx-auto mb-3 mt-2 custom__btn " data-bs-toggle="modal" data-bs-target="#exampleModal-2" data-bs-whatever="@fat">add a beneficiary</button>
+                    <button type="button" className=" rounded-2 py-md-2 py-1 text-capitalize mx-auto mb-3 mt-2 custom__btn px-3 " data-bs-toggle="modal" data-bs-target="#exampleModal-2" data-bs-whatever="@fat">add a beneficiary</button>
                     </div>
                 </div>
                 <div className="col-md-4 ">
                 <div className="request__payment  d-flex flex-column activity__card mt-md-0 mt-2">
                     <img src="assets/images/request.svg" alt="" className=" request__img py-4 px-2 " />
-                    <button type="button" className=" rounded-2 py-md-2 py-1 text-capitalize mb-3 mt-2 custom__btn mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal-3" data-bs-whatever="@getbootstrap">Request payment</button>
+                    <button type="button" className=" rounded-2 py-md-2 py-1 text-capitalize mb-3 mt-2 custom__btn px-3 mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal-3" data-bs-whatever="@getbootstrap">Request payment</button>
                     </div>
                 </div>
                 </div>

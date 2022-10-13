@@ -10,9 +10,9 @@ const WalletTrxn = () => {
                               <div className="row d-flex justify-content-between">
                                 <div className="col-md-4 " >
                                   <img src="/assets/images/btc.png" alt="" width="40" height="40" />
-                                  <button type="button" class="border-0" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
-                                      
-                                    Bitcoin (BTC) <strong className=''> <i>0.00646</i></strong></button>
+                                  <span >
+                                    Bitcoin (BTC) <strong className=''> <i>0.00646</i></strong>
+                                  </span>
                                 </div>
                                 <div className="col-md-3">
                                   <span className="fw-bold wallet__balance mt-md-0 mt-1"><i className="fa fa-naira-sign"></i> 160,000.00</span>

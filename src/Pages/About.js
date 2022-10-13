@@ -35,7 +35,7 @@ const About = () => {
                             <div id="carouselExampleDark" className="carousel carousel-dark slide " data-bs-ride="carousel">
                             
                             <div className="carousel-inner">
-                                <div className="carousel-item active" data-bs-interval="1000">
+                                <div className="carousel-item active" data-bs-interval="2000">
                                     <img src="/assets/images/about paygies 1.png" alt="" className="hero__image--about p-2" />
                                     <small className='mt-2 text-danger ms-5'>paygies allows transfers of cryptocurency to Paygies or other wallets</small>
                                 </div>
@@ -44,9 +44,13 @@ const About = () => {
                                     <small className='mt-2 text-danger ms-5'>users can send funds to recipients in 1 transaction with 1 fee</small>
 
                                 </div>
-                                <div className="carousel-item" data-bs-interval="">
-                                    <img src="assets/images/crypto.svg" className=" hero__image--about "  />
-                                    <small className='mt-2 text-danger ms-5'>users can send funds to recipients in 1 transaction with 1 fee</small>
+                                <div className="carousel-item" data-bs-interval="2000">
+                                    <div className='d-flex flex-row'>
+                                        <img src="assets/images/paygies-id.png" className=" hero__image--about "  />
+                                        <img src="assets/images/paygies-id-2.png" className=" hero__image--about "  />
+                                    </div>
+                                    
+                                    <small className='mt-2 text-danger text-center d-block w-100'>customize your paygies to your desired theme</small>
 
                                 </div>
                             </div>

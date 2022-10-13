@@ -12,32 +12,33 @@ const GeneralSearch = () => {
                 </a>
               </div>
             </div>
-            <div className="row d-flex">
+            <div className="row ">
               <div className="col-md-12">
-              <p>
-                
-              </p>
-              <div class="collapse" id="collapseExample">
-                  <div class="">
-                    <div className="input-group mb-1">
-                      <input type="file" className="form-control " placeholder=" " aria-label="Username" aria-describedby="basic-addon1"/>
-                      <span className="input-group-text" id="basic-addon1">Browse</span>
+                <div class="collapse " id="collapseExample">
+                  <div className=' position-relative d-flex justiy-content-between mt-3'>
+                    <label htmlFor="" className="text-capitalize mt-3 fw-bold fs-6 search__header">edit image</label>
+                    {/* <button type="button" class="btn-close position-absolute bottom-50 start-100  " aria-label="Close" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> */}
+                        <button type="button" class="btn-clos position-absolute bottom-50 start-100 bg-danger rounded-circle border-0" aria-label="Close" data-bs-toggle="collapse" data-bs-target="#collapseExample"  ><i className='fa fa-close  text-white p-1'></i></button>
+                    {/* </button> */}
+                  </div>
+                      <div className="input-group mb-1 img__upload">
+                        <input type="file" accept="image/png, image/jpg, image/gif, image/jpeg" id='fileInput' className="form-control " placeholder=" " aria-label="Username" aria-describedby="basic-addon1"/>
+                        <label className='input-group-text' htmlFor='fileInput'> Browse </label>
+                        
 
-                    </div>
+                      </div>
                 </div>
-              </div>
-                
               </div>
             </div>
             <label className="my-2 text-capitalize fs-6 fw-bold search__header">search results</label>
             <div className="search__wrapper p-3">
               <div className="row d-flex">
-                <div className="col-md-9">
+                <div className="col-md-8">
                   <p className="lh-2 fs-6">This is sample search result text. Data component of search should contain only text. HTML text  will be parsed as pure text. User  description of his/her paygies maybe added </p>
                   <span className="text-primary text-decoration-underline"><a href="">paygies </a >or <a href="">item link</a> </span>
                 </div>
-                <div className="col-md-3 mt-md-0 mt-3">
-                  <div className="card custom__card" >
+                <div className="col-md-4 mt-md-0 mt-3">
+                  <div className="card custom__card " >
                     <img src="assets/images/card-avatar.png" className="card-img mx-auto custom__card--img" alt="..." /> <span><i className="fa fa-use"></i></span>
                     <div className="card-bod">
                       <h6 className="card-tex custom__card--text text-center ">Lorem, ipsum dolor </h6>

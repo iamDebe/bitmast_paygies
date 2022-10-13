@@ -38,7 +38,7 @@ const Slider = () => {
                 </div>
                 <div className="carousel-item">
                 <div className="d-block w-md-50 w-50 mx-auto">
-                    <img src="assets/images/dogenpborder.png" alt="" className="d-block w-25 mx-auto " width="40" />
+                    <img src="assets/images/dogenoborder.png" alt="" className="d-block w-25 mx-auto " width="40" />
                     {/* <!-- <span className="text-capitalize w-100 fw-bolder d-inline ms-4 createaddress__header d-md-block d-none">Dogecoin Address</span>
                     <p className="text-capitalize fs-4 fs-sm-5  text-center fw-bolder d-inline ms-md-4  createaddress__header d-md-none d-inline-block"> Dogecoin Address</p> --> */}
                 </div>

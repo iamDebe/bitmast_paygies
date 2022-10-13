@@ -10,24 +10,6 @@ triggerTabList.forEach((triggerEl) => {
 });
 
 
-// pie chart
-
-// const ctx = document.getElementById("myChart").getContext("2d")
-
-// const myChart = new Chart(ctx, {
-//   type: "pie",
-//   data: {
-//     labels: ["Litecoin", "dashcoin", "bitcoin", "dogecoin"],
-//     datasets: [
-//       {
-//         label: "0",
-//         data: [8, 20, 8, 2],
-//         backgroundColor: ["#4e4848", "#009adc", "#ef9b12", "#918a33"],
-//         borderWidth: 0,
-//       },
-//     ],
-//   },
-// });
 
 // offcanvas
 const offcanvasElementList = document.querySelectorAll('.offcanvas')

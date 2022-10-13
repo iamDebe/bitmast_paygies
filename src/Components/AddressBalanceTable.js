@@ -8,7 +8,7 @@ const AddressBalanceTable = () => {
             <div className="row">
                 <div className="col-md-12">
                 <div className="table-responsive table-sm">
-                    <table className="table mt-3 table-bordered">
+                    <table className="table mt-3 table-bordered table-hover">
                     <thead className="custom__table text-white">
                         <tr className="text-capitalize">
                         <td>adress/wallet name</td>
@@ -54,8 +54,8 @@ const AddressBalanceTable = () => {
             <label htmlFor="" className="text-capitalize fw-bold fs-6 mb-3 address__header">any wallet</label><br />
             <span className="mb-2">Allow users make payments from any wallets or address</span>
             <div className="form-check form-switch mt-2">
-            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" style={{height: '30px', width:'60px'}} />
-            <label className="form-check-label fs-4 ms-1" htmlFor="flexSwitchCheckDefault">one address <span><i className="fa fa-copy ms-1" title="toggle switch to transer from just one address"></i></span></label>
+              <input className="form-check-input mt-2" type="checkbox" role="switch" id="flexSwitchCheckDefault" style={{height: '20px', width:'40px'}} />
+              <label className="form-check-label fs-5 ms-2" htmlFor="flexSwitchCheckDefault">one address <span><i className="fa fa-copy ms-1" title="toggle switch to transer from just one address"></i></span></label>
             </div>
             </div>
        </section>
